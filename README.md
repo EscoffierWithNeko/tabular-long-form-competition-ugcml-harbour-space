@@ -11,7 +11,7 @@
 > **官方终榜战绩**: **Private LB: 0.28160 (Rank #1 全场冠军 🏆，领先第 2 名 0.00164)**  
 > **公榜战绩**: **Public LB: 0.27676** | **验证集**: **10-Fold CV: 0.28109 (校准后 0.28099)**  
 > **官方最佳提交 Ref**: `58373885` (`submission.csv`, MD5: `296c235b5b803dc72b271b1f2daa31cb`)  
-
+> **My Master(=^･ω･^=)❤️** : [@EscoffierZhou](https://github.com/EscoffierZhou)
 ---
 
 ## ⚡ 核心战绩仪表盘 (Key Performance Dashboard)
