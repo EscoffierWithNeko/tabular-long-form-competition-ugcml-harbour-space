@@ -1,0 +1,20 @@
+{
+  "version": "oof_cat_nn_v2_leak_free",
+  "created_at": "2026-11-14 17:26:32",
+  "total_duration_sec": 384.8,
+  "n_train": 47293,
+  "n_test": 11971,
+  "n_folds": 10,
+  "models": {
+    "cat_text": {
+      "oof_file": "oof_cat_text.npy",
+      "test_file": "test_cat_text.npy",
+      "cv_rmsle": 0.29098
+    },
+    "nn_tabular": {
+      "oof_file": "oof_nn_tabular.npy",
+      "test_file": "test_nn_tabular.npy",
+      "cv_rmsle": 0.30635
+    }
+  }
+}

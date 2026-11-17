@@ -1,0 +1,69 @@
+{
+  "status": "success",
+  "timestamp": "2026-11-14 01:23:10",
+  "n_train": 47293,
+  "n_test": 11971,
+  "n_folds": 10,
+  "models": {
+    "cat_text": {
+      "description": "CatBoostRegressor with native text features and high-cardinality categorical features",
+      "text_features": [
+        "clean_name",
+        "clean_desc",
+        "clean_amenities"
+      ],
+      "cat_features": [
+        "geo_cell",
+        "host_id",
+        "room_type",
+        "property_type",
+        "twin_4tuple",
+        "twin_5tuple"
+      ],
+      "task_type": "CPU",
+      "iterations": 2000,
+      "learning_rate": 0.05,
+      "early_stopping_rounds": 80,
+      "fold_scores_rmsle": [
+        0.01371,
+        0.01318,
+        0.01202,
+        0.01297,
+        0.01303,
+        0.0133,
+        0.01423,
+        0.01242,
+        0.01243,
+        0.01492
+      ],
+      "cv_rmsle": 0.01325
+    },
+    "nn_tabular": {
+      "description": "PyTorch Entity-Embedding Tabular ResNet with fold-scaler and cosine annealing",
+      "cat_features": [
+        "geo_cell",
+        "host_id",
+        "room_type",
+        "property_type",
+        "twin_4tuple",
+        "twin_5tuple"
+      ],
+      "numeric_features_dim": 230,
+      "fold_scores_rmsle": [
+        0.07048,
+        0.06945,
+        0.05537,
+        0.05999,
+        0.05935,
+        0.05276,
+        0.06046,
+        0.06174,
+        0.08398,
+        0.0546
+      ],
+      "cv_rmsle": 0.06345
+    }
+  },
+  "blend_simple_mean_cv_rmsle": 0.03287,
+  "total_elapsed_seconds": 8426.93
+}

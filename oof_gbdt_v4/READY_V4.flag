@@ -1,0 +1,4 @@
+oof_gbdt_v4 completed successfully at 2026-11-15 20:24:02
+Total models trained: 7
+Best single model: v4_lgb_huber (CV RMSLE = 0.28782)
+Top-4 equal blend RMSLE: 0.28624

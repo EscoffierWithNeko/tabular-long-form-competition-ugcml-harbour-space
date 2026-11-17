@@ -1,0 +1,4 @@
+oof_gbdt_v3 completed successfully at 2026-11-15 11:35:22
+Total models trained: 7
+Best single model: v3_xgb_main (CV RMSLE = 0.28389)
+Top-4 equal blend RMSLE: 0.28221

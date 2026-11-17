@@ -1,0 +1,31 @@
+{
+  "status": "success",
+  "n_train": 47293,
+  "n_test": 11971,
+  "models": {
+    "lgb_std": {
+      "oof_rmsle": 0.2883488506049156,
+      "file_oof": "oof_lgb_std.npy",
+      "file_test": "test_lgb_std.npy"
+    },
+    "lgb_et": {
+      "oof_rmsle": 0.289216503153131,
+      "file_oof": "oof_lgb_et.npy",
+      "file_test": "test_lgb_et.npy"
+    },
+    "xgb_main": {
+      "oof_rmsle": 0.2879382773393621,
+      "file_oof": "oof_xgb.npy",
+      "file_test": "test_xgb.npy"
+    }
+  },
+  "diversity_correlations": {
+    "corr_lgb_std_lgb_et": 0.9939019955959806,
+    "corr_lgb_std_xgb_main": 0.9963759320575422,
+    "corr_lgb_et_xgb_main": 0.9937282361857066
+  },
+  "ensemble_oof_rmsle": {
+    "equal_blend_3gbdt": 0.28562319423179844
+  },
+  "total_time_seconds": 222.08
+}
